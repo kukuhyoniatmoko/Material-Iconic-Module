@@ -1,0 +1,2 @@
+# material-iconic-module
+Module for [Iconify] (https://github.com/JoanZapata/android-iconify) with fonts from [zavoloklom/material-design-iconic-font] (https://github.com/zavoloklom/material-design-iconic-font)
