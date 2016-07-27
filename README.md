@@ -1,5 +1,5 @@
 # material-iconic-module
-[![](https://jitpack.io/v/kukuhyoniatmoko/material-iconic-module.svg)](https://jitpack.io/#kukuhyoniatmoko/material-iconic-module)
+[![](https://jitpack.io/v/kukuhyoniatmoko/material-iconic-module.svg)](https://jitpack.io/#kukuhyoniatmoko/material-iconic-module)  [![Build Status](https://travis-ci.org/kukuhyoniatmoko/material-iconic-module.svg?branch=master)](https://travis-ci.org/kukuhyoniatmoko/material-iconic-module)
 
 Module for [Iconify] (https://github.com/JoanZapata/android-iconify) with fonts from [zavoloklom/material-design-iconic-font] (https://github.com/zavoloklom/material-design-iconic-font)
 
