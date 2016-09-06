@@ -4,7 +4,7 @@ import com.joanzapata.iconify.Icon;
 import com.joanzapata.iconify.IconFontDescriptor;
 
 /**
- * Created by ITP on 5/1/16.
+ * Provides ttf file name, list of all characters
  */
 public class MaterialIconicModule implements IconFontDescriptor {
   @Override public String ttfFileName() {
