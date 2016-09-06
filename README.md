@@ -6,7 +6,7 @@ Module for [Iconify] (https://github.com/JoanZapata/android-iconify) with fonts 
 ### Install
 ```gradle
 dependencies {
-    compile 'com.github.kukuhyoniatmoko:material-iconic-module:1.0.1'
+    compile 'com.github.kukuhyoniatmoko:material-iconic-module:1.0.2'
 }
 ```
 ```java
@@ -24,5 +24,5 @@ public class MyApplication extends Application {
     Drawable icon = new IconDrawable(context, MaterialIconics.zmdi_android);
 ```
 ### Available Icons
-See all available icons at: http://zavoloklom.github.io/material-design-iconic-font/icons.html
+See all available icons at: [cheat sheet](http://zavoloklom.github.io/material-design-iconic-font/cheatsheet.html)
 use __zmdi__ as key prefix, for example key __android__ icon is __zmdi-android__
