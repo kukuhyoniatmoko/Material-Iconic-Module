@@ -3,16 +3,14 @@ package com.foodenak.materialiconicmodule;
 import com.joanzapata.iconify.Icon;
 
 /**
- * Created by ITP on 5/1/16.
+ * All available Icons
  */
 public enum MaterialIconics implements Icon {
+  //Web Application
   zmdi_3d_rotation('\uf101'),
-  zmdi_500px('\uf3ee'),
-  zmdi_8tracks('\uf3ef'),
   zmdi_airplane_off('\uf102'),
   zmdi_airplane('\uf103'),
   zmdi_album('\uf104'),
-  zmdi_amazon('\uf3f0'),
   zmdi_archive('\uf105'),
   zmdi_assignment_account('\uf106'),
   zmdi_assignment_alert('\uf107'),
@@ -34,7 +32,6 @@ public enum MaterialIconics implements Icon {
   zmdi_bike('\uf117'),
   zmdi_block_alt('\uf118'),
   zmdi_block('\uf119'),
-  zmdi_blogger('\uf3f1'),
   zmdi_boat('\uf11a'),
   zmdi_book_image('\uf11b'),
   zmdi_book('\uf11c'),
@@ -94,9 +91,7 @@ public enum MaterialIconics implements Icon {
   zmdi_compass('\uf152'),
   zmdi_cutlery('\uf153'),
   zmdi_delete('\uf154'),
-  zmdi_delicious('\uf3f2'),
   zmdi_dialpad('\uf155'),
-  zmdi_disqus('\uf3f3'),
   zmdi_dns('\uf156'),
   zmdi_drink('\uf157'),
   zmdi_edit('\uf158'),
@@ -114,8 +109,6 @@ public enum MaterialIconics implements Icon {
   zmdi_flash_auto('\uf164'),
   zmdi_flash_off('\uf165'),
   zmdi_flash('\uf166'),
-  zmdi_flattr('\uf3f4'),
-  zmdi_flickr('\uf3f5'),
   zmdi_flip('\uf167'),
   zmdi_flower_alt('\uf168'),
   zmdi_flower('\uf169'),
@@ -130,6 +123,7 @@ public enum MaterialIconics implements Icon {
   zmdi_globe_lock('\uf172'),
   zmdi_globe('\uf173'),
   zmdi_graduation_cap('\uf174'),
+  zmdi_group('\uf3e9'),
   zmdi_home('\uf175'),
   zmdi_hospital_alt('\uf176'),
   zmdi_hospital('\uf177'),
@@ -175,8 +169,6 @@ public enum MaterialIconics implements Icon {
   zmdi_nature_people('\uf19f'),
   zmdi_nature('\uf1a0'),
   zmdi_navigation('\uf1a1'),
-  zmdi_odnoklassniki('\uf3f9'),
-  zmdi_outlook('\uf3fa'),
   zmdi_open_in_browser('\uf1a2'),
   zmdi_open_in_new('\uf1a3'),
   zmdi_palette('\uf1a4'),
@@ -202,7 +194,6 @@ public enum MaterialIconics implements Icon {
   zmdi_refresh_sync('\uf1b8'),
   zmdi_refresh('\uf1b9'),
   zmdi_roller('\uf1ba'),
-  zmdi_rss('\uf3ea'),
   zmdi_ruler('\uf1bb'),
   zmdi_scissors('\uf1bc'),
   zmdi_screen_rotation_lock('\uf1bd'),
@@ -215,6 +206,7 @@ public enum MaterialIconics implements Icon {
   zmdi_seat('\uf1c4'),
   zmdi_settings_square('\uf1c5'),
   zmdi_settings('\uf1c6'),
+  zmdi_shape('\uf3eb'),
   zmdi_shield_check('\uf1c7'),
   zmdi_shield_security('\uf1c8'),
   zmdi_shopping_basket('\uf1c9'),
@@ -226,6 +218,7 @@ public enum MaterialIconics implements Icon {
   zmdi_sort_asc('\uf1cf'),
   zmdi_sort_desc('\uf1d0'),
   zmdi_spellcheck('\uf1d1'),
+  zmdi_spinner('\uf3ec'),
   zmdi_storage('\uf1d2'),
   zmdi_store_24('\uf1d3'),
   zmdi_store('\uf1d4'),
@@ -248,6 +241,7 @@ public enum MaterialIconics implements Icon {
   zmdi_triangle_up('\uf1e5'),
   zmdi_truck('\uf1e6'),
   zmdi_turning_sign('\uf1e7'),
+  zmdi_ungroup('\uf3ed'),
   zmdi_wallpaper('\uf1e8'),
   zmdi_washing_machine('\uf1e9'),
   zmdi_window_maximize('\uf1ea'),
@@ -256,6 +250,9 @@ public enum MaterialIconics implements Icon {
   zmdi_wrench('\uf1ed'),
   zmdi_zoom_in('\uf1ee'),
   zmdi_zoom_out('\uf1ef'),
+  //Web Application end
+
+  //Notifications
   zmdi_alert_circle_o('\uf1f0'),
   zmdi_alert_circle('\uf1f1'),
   zmdi_alert_octagon('\uf1f2'),
@@ -271,6 +268,9 @@ public enum MaterialIconics implements Icon {
   zmdi_notifications_off('\uf1fc'),
   zmdi_notifications_paused('\uf1fd'),
   zmdi_notifications('\uf1fe'),
+  //Notifications end
+
+  //Person
   zmdi_account_add('\uf1ff'),
   zmdi_account_box_mail('\uf200'),
   zmdi_account_box_o('\uf201'),
@@ -295,6 +295,8 @@ public enum MaterialIconics implements Icon {
   zmdi_mood('\uf214'),
   zmdi_run('\uf215'),
   zmdi_walk('\uf216'),
+
+  //File
   zmdi_cloud_box('\uf217'),
   zmdi_cloud_circle('\uf218'),
   zmdi_cloud_done('\uf219'),
@@ -315,6 +317,9 @@ public enum MaterialIconics implements Icon {
   zmdi_folder('\uf228'),
   zmdi_gif('\uf229'),
   zmdi_upload('\uf22a'),
+  //File end
+
+  //Editor
   zmdi_border_all('\uf22b'),
   zmdi_border_bottom('\uf22c'),
   zmdi_border_clear('\uf22d'),
@@ -362,6 +367,9 @@ public enum MaterialIconics implements Icon {
   zmdi_transform('\uf257'),
   zmdi_undo('\uf258'),
   zmdi_wrap_text('\uf259'),
+  //Editor end
+
+  //Comment
   zmdi_comment_alert('\uf25a'),
   zmdi_comment_alt_text('\uf25b'),
   zmdi_comment_alt('\uf25c'),
@@ -375,6 +383,9 @@ public enum MaterialIconics implements Icon {
   zmdi_comment_video('\uf264'),
   zmdi_comment('\uf265'),
   zmdi_comments('\uf266'),
+  //Comment end
+
+  //Form
   zmdi_check_all('\uf267'),
   zmdi_check_circle_u('\uf268'),
   zmdi_check_circle('\uf269'),
@@ -398,6 +409,9 @@ public enum MaterialIconics implements Icon {
   zmdi_star_half('\uf27b'),
   zmdi_star_outline('\uf27c'),
   zmdi_star('\uf27d'),
+  //Form end
+
+  //Hardware
   zmdi_bluetooth_connected('\uf27e'),
   zmdi_bluetooth_off('\uf27f'),
   zmdi_bluetooth_search('\uf280'),
@@ -505,6 +519,9 @@ public enum MaterialIconics implements Icon {
   zmdi_wifi_off('\uf2e6'),
   zmdi_wifi_outline('\uf2e7'),
   zmdi_wifi('\uf2e8'),
+  //Hardware end
+
+  //Directional
   zmdi_arrow_left_bottom('\uf2e9'),
   zmdi_arrow_left('\uf2ea'),
   zmdi_arrow_merge('\uf2eb'),
@@ -547,6 +564,9 @@ public enum MaterialIconics implements Icon {
   zmdi_trending_up('\uf310'),
   zmdi_unfold_less('\uf311'),
   zmdi_unfold_more('\uf312'),
+  //Directional end
+
+  //View
   zmdi_apps('\uf313'),
   zmdi_grid_off('\uf314'),
   zmdi_grid('\uf315'),
@@ -569,6 +589,9 @@ public enum MaterialIconics implements Icon {
   zmdi_view_web('\uf326'),
   zmdi_view_week('\uf327'),
   zmdi_widgets('\uf328'),
+  //View end
+
+  //Date/Time
   zmdi_alarm_check('\uf329'),
   zmdi_alarm_off('\uf32a'),
   zmdi_alarm_plus('\uf32b'),
@@ -586,6 +609,9 @@ public enum MaterialIconics implements Icon {
   zmdi_time('\uf337'),
   zmdi_timer_off('\uf338'),
   zmdi_timer('\uf339'),
+  //Date/Time end
+
+  //Social
   zmdi_android_alt('\uf33a'),
   zmdi_android('\uf33b'),
   zmdi_apple('\uf33c'),
@@ -596,9 +622,9 @@ public enum MaterialIconics implements Icon {
   zmdi_evernote('\uf341'),
   zmdi_facebook_box('\uf342'),
   zmdi_facebook('\uf343'),
+  zmdi_github_alt('\uf3f6'),
   zmdi_github_box('\uf344'),
   zmdi_github('\uf345'),
-  zmdi_github_alt('\uf3f6'),
   zmdi_google_drive('\uf346'),
   zmdi_google_earth('\uf347'),
   zmdi_google_glass('\uf348'),
@@ -625,12 +651,8 @@ public enum MaterialIconics implements Icon {
   zmdi_pocket('\uf359'),
   zmdi_polymer('\uf35a'),
   zmdi_reddit('\uf3fe'),
-  zmdi_shape('\uf3eb'),
+  zmdi_rss('\uf3ea'),
   zmdi_share('\uf35b'),
-  zmdi_skype('\uf3ff'),
-  zmdi_slideshare('\uf400'),
-  zmdi_soundcloud('\uf401'),
-  zmdi_spinner('\uf3ec'),
   zmdi_stack_overflow('\uf35c'),
   zmdi_steam_square('\uf35d'),
   zmdi_steam('\uf35e'),
@@ -638,14 +660,32 @@ public enum MaterialIconics implements Icon {
   zmdi_twitch('\uf403'),
   zmdi_twitter_box('\uf35f'),
   zmdi_twitter('\uf360'),
-  zmdi_vimeo('\uf404'),
   zmdi_vk('\uf361'),
-  zmdi_whatsapp('\uf405'),
   zmdi_wikipedia('\uf362'),
+  zmdi_windows('\uf363'),
+  zmdi_500px('\uf3ee'),
+  zmdi_8tracks('\uf3ef'),
+  zmdi_amazon('\uf3f0'),
+  zmdi_blogger('\uf3f1'),
+  zmdi_delicious('\uf3f2'),
+  zmdi_disqus('\uf3f3'),
+  zmdi_flattr('\uf3f4'),
+  zmdi_flickr('\uf3f5'),
+  zmdi_odnoklassniki('\uf3f9'),
+  zmdi_outlook('\uf3fa'),
+  zmdi_playstation('\uf3fd'),
+  zmdi_skype('\uf3ff'),
+  zmdi_slideshare('\uf400'),
+  zmdi_soundcloud('\uf401'),
+  zmdi_vimeo('\uf404'),
+  zmdi_whatsapp('\uf405'),
+  zmdi_xbox('\uf406'),
   zmdi_yahoo('\uf407'),
   zmdi_youtube_play('\uf408'),
   zmdi_youtube('\uf409'),
-  zmdi_windows('\uf363'),
+  //Social end
+
+  //Image
   zmdi_aspect_ratio_alt('\uf364'),
   zmdi_aspect_ratio('\uf365'),
   zmdi_blur_circular('\uf366'),
@@ -702,6 +742,9 @@ public enum MaterialIconics implements Icon {
   zmdi_tonality('\uf399'),
   zmdi_vignette('\uf39a'),
   zmdi_wb_auto('\uf39b'),
+  //Image end
+
+  //Audio/Video
   zmdi_eject_alt('\uf39c'),
   zmdi_eject('\uf39d'),
   zmdi_equalizer('\uf39e'),
@@ -719,8 +762,6 @@ public enum MaterialIconics implements Icon {
   zmdi_play('\uf3aa'),
   zmdi_playlist_audio('\uf3ab'),
   zmdi_playlist_plus('\uf3ac'),
-  zmdi_playstation('\uf3fd'),
-  zmdi_xbox('\uf406'),
   zmdi_repeat_one('\uf3ad'),
   zmdi_repeat('\uf3ae'),
   zmdi_replay_10('\uf3af'),
@@ -737,6 +778,9 @@ public enum MaterialIconics implements Icon {
   zmdi_volume_mute('\uf3ba'),
   zmdi_volume_off('\uf3bb'),
   zmdi_volume_up('\uf3bc'),
+  //Audio/Video end
+
+  //Numbers
   zmdi_n_1_square('\uf3bd'),
   zmdi_n_2_square('\uf3be'),
   zmdi_n_3_square('\uf3bf'),
@@ -750,6 +794,9 @@ public enum MaterialIconics implements Icon {
   zmdi_sec_10('\uf3c7'),
   zmdi_sec_3('\uf3c8'),
   zmdi_zero('\uf3c9'),
+  //Numbers end
+
+  //Other
   zmdi_airline_seat_flat_angled('\uf3ca'),
   zmdi_airline_seat_flat('\uf3cb'),
   zmdi_airline_seat_individual_suite('\uf3cc'),
@@ -768,8 +815,6 @@ public enum MaterialIconics implements Icon {
   zmdi_flight_takeoff('\uf3d9'),
   zmdi_flip_to_back('\uf3da'),
   zmdi_flip_to_front('\uf3db'),
-  zmdi_group('\uf3e9'),
-  zmdi_ungroup('\uf3ed'),
   zmdi_group_work('\uf3dc'),
   zmdi_hd('\uf3dd'),
   zmdi_hq('\uf3de'),
@@ -783,114 +828,8 @@ public enum MaterialIconics implements Icon {
   zmdi_tap_and_play('\uf3e6'),
   zmdi_vibration('\uf3e7'),
   zmdi_voicemail('\uf3e8'),
-  zmdi_import_export('\uf30c'),
-  zmdi_swap_vertical_('\uf30c'),
-  zmdi_airplanemode_inactive('\uf102'),
-  zmdi_airplanemode_active('\uf103'),
-  zmdi_rate_review('\uf103'),
-  zmdi_comment_sign('\uf25a'),
-  zmdi_network_warning('\uf2ad'),
-  zmdi_shopping_cart_add('\uf1ca'),
-  zmdi_file_add('\uf221'),
-  zmdi_network_wifi_scan('\uf2e4'),
-  zmdi_collection_add('\uf14e'),
-  zmdi_format_playlist_add('\uf3ac'),
-  zmdi_format_queue_music('\uf3ab'),
-  zmdi_plus_box('\uf277'),
-  zmdi_tag_backspace('\uf1d9'),
-  zmdi_alarm_add('\uf32b'),
-  zmdi_battery_charging('\uf114'),
-  zmdi_daydream_setting('\uf217'),
-  zmdi_more_horiz('\uf19c'),
-  zmdi_book_photo('\uf11b'),
-  zmdi_incandescent('\uf189'),
-  zmdi_wb_iridescent('\uf38c'),
-  zmdi_calendar_remove('\uf330'),
-  zmdi_refresh_sync_disabled('\uf1b7'),
-  zmdi_refresh_sync_problem('\uf1b6'),
-  zmdi_crop_original('\uf17e'),
-  zmdi_power_off('\uf1af'),
-  zmdi_power_off_setting('\uf1ae'),
-  zmdi_leak_remove('\uf38d'),
-  zmdi_star_border('\uf27c'),
-  zmdi_brightness_low('\uf36d'),
-  zmdi_brightness_medium('\uf36e'),
-  zmdi_brightness_high('\uf36f'),
-  zmdi_smartphone_portrait('\uf2d4'),
-  zmdi_live_tv('\uf2d9'),
-  zmdi_format_textdirection_l_to_r('\uf249'),
-  zmdi_format_textdirection_r_to_l('\uf24a'),
-  zmdi_arrow_back('\uf2ea'),
-  zmdi_arrow_forward('\uf2ee'),
-  zmdi_arrow_in('\uf2e9'),
-  zmdi_arrow_out('\uf2ed'),
-  zmdi_rotate_90_degrees_ccw('\uf304'),
-  zmdi_adb('\uf33a'),
-  zmdi_network_wifi('\uf2e8'),
-  zmdi_network_wifi_alt('\uf2e3'),
-  zmdi_network_wifi_lock('\uf2e5'),
-  zmdi_network_wifi_off('\uf2e6'),
-  zmdi_network_wifi_outline('\uf2e7'),
-  zmdi_network_wifi_info('\uf2e4'),
-  zmdi_layers_clear('\uf18b'),
-  zmdi_colorize('\uf15d'),
-  zmdi_format_paint('\uf1ba'),
-  zmdi_format_quote('\uf1b2'),
-  zmdi_camera_monochrome_photos('\uf285'),
-  zmdi_sort_by_alpha('\uf1cf'),
-  zmdi_folder_shared('\uf225'),
-  zmdi_folder_special('\uf226'),
-  zmdi_comment_dots('\uf260'),
-  zmdi_reorder('\uf31e'),
-  zmdi_dehaze('\uf197'),
-  zmdi_sort('\uf1ce'),
-  zmdi_pages('\uf34a'),
-  zmdi_calendar_account('\uf204'),
-  zmdi_paste('\uf109'),
-  zmdi_cut('\uf1bc'),
-  zmdi_save('\uf297'),
-  zmdi_smartphone_code('\uf139'),
-  zmdi_directions_bike('\uf117'),
-  zmdi_directions_boat('\uf11a'),
-  zmdi_directions_bus('\uf121'),
-  zmdi_directions_car('\uf125'),
-  zmdi_directions_railway('\uf1b3'),
-  zmdi_directions_run('\uf215'),
-  zmdi_directions_subway('\uf1d5'),
-  zmdi_directions_walk('\uf216'),
-  zmdi_local_hotel('\uf178'),
-  zmdi_local_activity('\uf1df'),
-  zmdi_local_play('\uf1df'),
-  zmdi_local_airport('\uf103'),
-  zmdi_local_atm('\uf198'),
-  zmdi_local_bar('\uf137'),
-  zmdi_local_cafe('\uf13b'),
-  zmdi_local_car_wash('\uf124'),
-  zmdi_local_convenience_store('\uf1d3'),
-  zmdi_local_dining('\uf153'),
-  zmdi_local_drink('\uf157'),
-  zmdi_local_florist('\uf168'),
-  zmdi_local_gas_station('\uf16f'),
-  zmdi_local_grocery_store('\uf1cb'),
-  zmdi_local_hospital('\uf177'),
-  zmdi_local_laundry_service('\uf1e9'),
-  zmdi_local_library('\uf18d'),
-  zmdi_local_mall('\uf195'),
-  zmdi_local_movies('\uf19d'),
-  zmdi_local_offer('\uf187'),
-  zmdi_local_parking('\uf1a5'),
-  zmdi_local_pharmacy('\uf176'),
-  zmdi_local_phone('\uf2be'),
-  zmdi_local_pizza('\uf1ac'),
-  zmdi_local_post_office('\uf15a'),
-  zmdi_local_printshop('\uf1b0'),
-  zmdi_local_see('\uf28c'),
-  zmdi_local_shipping('\uf1e6'),
-  zmdi_local_store('\uf1d4'),
-  zmdi_local_taxi('\uf123'),
-  zmdi_local_wc('\uf211'),
-  zmdi_my_location('\uf299'),
-  zmdi_directions('\uf1e7');
+  //Other end
+  ;
 
   final char character;
 
